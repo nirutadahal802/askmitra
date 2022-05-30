@@ -1,0 +1,263 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+.main{
+	height: auto;
+	width: 100%;
+}
+/*..............head part.....................*/
+.header{
+	height: 85px;
+	width: 100%;
+	background: #232121;
+}
+.header img{
+	height: 60px;
+	width: 170px;
+	margin-left: 80px;
+	margin-top: 15px;
+	float: left;
+}
+.header ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+.header ul li{
+	width: 75px;
+	margin: 10px;
+	padding: 9px;
+}
+.header ul li i{
+	margin-left: 8px;
+}
+.header ul li a{
+	text-decoration: none;
+	color: white;
+}
+.header ul li a:hover{
+	background: black;
+	border-radius: 2px;
+}
+.header button{
+	height: 35px;
+	background: black;
+	color: white;
+	border-radius: 2px;
+	margin-left: 30px;
+}
+.header button .search_bar{
+	background: black;
+	border-color: black;
+	font-style: italic;
+}
+.header .profile{
+	height: 85px;
+	width: 13%;
+	float: right;
+	margin-right: 110px;
+	color: white;
+}
+.header .profile img{
+	height: 50px;
+	width: 50px;
+	border-radius: 40px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.header .profile h5{
+	color: #535353;
+	padding: 20px;
+}
+.header .profile h4{
+	font-size: 20px;
+	margin-left: 70px;
+}
+/*...............Mid part.......................*/
+.middle{
+	height: 685px;
+	width: 100%;
+	background: whitesmoke;
+}
+.middle .left{
+	height: 685px;
+	width: 280px;
+	float: left;
+	background: whitesmoke;
+}
+.middle .left .menu{
+	height: 50px;
+	width: 100%;
+}
+.middle .left span{
+	margin-left: 10px;
+	color: black;
+}
+.middle .left i{
+	margin-left: 110px;
+}
+.middle .left .menu1, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .menu8, .menu9, .menu10, .menu11{
+	height: 40px;
+	width: 100%;
+	margin-top: 10px;
+}
+.middle .left .menu10 span{
+	margin-left: 100px;
+}
+.middle .left .menu12, .menu13, .menu14{
+	height: 30px;
+	width: 100%;
+}
+.middle .left .menu12, .menu13, .menu14, p{
+	color: #535353;
+	font-size: 14px;
+	margin-left: 70px;
+}
+.middle .mid{
+	height: 685px;
+	width: 850px;
+	background: white;
+	float: right;
+	margin-right: 350px;
+}
+.middle .mid .menu{
+	height: 100px;
+	width: 100%;
+}
+.middle .mid .menu ul{
+	display: inline-flex;
+	list-style: none;
+}
+.middle .mid .menu ul li{
+	width: 130px;
+	margin-top: 10px;
+	padding: 20px;
+}
+.middle .mid .content{
+	height: 400px;
+	width: 100%;
+}
+.middle .mid .content img{
+	height: 50px;
+	width: 50px;
+	border-radius: 60px;
+	border: 3px solid black;
+	margin-left: 30px;
+	margin-top: 10px;
+	float: left;
+}
+.middle .mid .content span{
+	margin-left: 20px;
+	padding-top: 10px;
+}
+.middle .mid .content .sub_content{
+	height: 400px;
+	width: 80%;
+	float: right;
+	margin-right: 65px;
+	margin-top: 10px;
+}
+.middle .mid .content .sub_content h4 i{
+	background: #138EE7;
+	border-radius: 8px;
+	color: white;
+	margin-left: 10px;
+}
+.middle .mid .content .sub_content h4 button{
+	margin-left: 10px;
+	background: orange;
+	color: white;
+	border: 0px orange;
+	font-size: 15px;
+}
+.middle .mid .content .sub_content h4 span{
+	color: #777879;
+	font-size: 12px;
+}
+.middle .mid .content .sub_content h2{
+	margin-top: 10px;
+	font-size: 20px;
+}
+.middle .mid .content .sub_content label{
+	color: #777879;
+	font-size: 18px;
+	word-spacing: 3;
+}
+.middle .mid .content .sub_content label a{
+	text-decoration: none;
+	color: black;
+}
+.middle .mid .content .sub_content button{
+	border-color: #777879;
+	border: 1px solid #777879;
+	color: #777879;
+	background: white;
+}
+.middle .mid .content .sub_content .last_content{
+	height: 70px;
+	width: 100%;
+	margin-top: 30px;
+	background: #EBEDEE;
+}
+.middle .mid .content .sub_content .last_content span{
+	margin-left: 20px;
+	margin-top: -10px;
+	font-size: 25px;
+	color: #777879;
+}
+.middle .mid .content .sub_content .last_content span button{
+	background: whitesmoke;
+	color: black;
+	font-size: 20px;
+}
+.middle .mid .content .sub_content .last_content span button i{
+	color: #777879;
+}
+.middle .right{
+	height: 685px;
+	width: 300px;
+	background: white;
+	float: right;
+	margin-top: -685px;
+	margin-right: 40px;
+}
+.middle .right .ask{
+	height: 30px;
+	width: 80%;
+	margin-left: 25px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	background: black;
+	text-align: center;
+	padding: 10px;
+	font-size: 19px;
+	color: white;
+}
+.middle .right .options{
+	height: 600px;
+	width: 85%;
+	margin-left: 25px;
+	margin-top: 8px;
+	color: black;
+}
+.middle .right .options .option{
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+}
+.middle .right .options .option1, .option2, .option3, .option4, .option5, .option6, .option7,.option8,.option9{
+	height: 45px;
+	width: 100%;
+	margin-top: 10px;
+	font-size: 17px;
+}
+.middle .right .option3{
+	border: 1px solid black;
+	background: whitesmoke;
+	margin-bottom: 5px;
+}
